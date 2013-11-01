@@ -47,6 +47,12 @@
             android:layout_weight="1"
             android:text="@string/three" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
         <Button
             android:id="@+id/button4"
             android:layout_width="0dp"
@@ -60,11 +66,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/five" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
 
         <Button
             android:id="@+id/button6"
@@ -72,6 +73,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/six" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
 
         <Button
             android:id="@+id/button7"
@@ -94,12 +101,33 @@
             android:layout_weight="1"
             android:text="@string/nine" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/calc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/calc" />
+
         <Button
             android:id="@+id/button0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clear" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -121,20 +149,6 @@
             android:text="@string/minus" />
 
         <Button
-            android:id="@+id/calc"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/calc" />
-
-        <Button
-            android:id="@+id/clear"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/clear" />
-
-        <Button
             android:id="@+id/times"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -154,6 +168,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/dot" />
+
     </LinearLayout>
 
 </LinearLayout>
